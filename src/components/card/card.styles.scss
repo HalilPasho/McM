@@ -1,0 +1,74 @@
+.card-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  // background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+#profileImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 65px;
+  /* identical to box height, or 150% */
+}
+
+.f_name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #4a4a4a;
+}
+
+.ph_number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  margin-top: -10px;
+  color: #4a4a4a;
+}
+
+.app_date {
+  background: #9d9d9d;
+  border-radius: 3px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 10px;
+  /* identical to box height, or 83% */
+
+  text-transform: uppercase;
+
+  /* White */
+  margin-top: -10px;
+  color: #ffffff;
+  padding: 3px 0px;
+  width: 185px;
+  margin: auto;
+}

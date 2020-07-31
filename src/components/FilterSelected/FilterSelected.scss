@@ -1,0 +1,28 @@
+.options_selected {
+  margin-left: 24px;
+  padding: 0px 5px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  &:nth-child(3) .status {
+    width: 93px;
+  }
+}
+
+.status {
+  height: 50px;
+  width: 80px;
+  border: none;
+  background: transparent;
+  outline: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #4a4a4a;
+}

@@ -1,0 +1,86 @@
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 27px;
+}
+
+.card-list-hg {
+  width: 1161px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #fff;
+}
+
+.arr_title {
+  text-align: left;
+  img {
+    cursor: pointer;
+  }
+}
+
+.head_title_card {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 16px;
+  color: #4a4a4a;
+}
+
+.main_cotainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .component_details {
+    flex-grow: 0;
+  }
+  span {
+    flex-grow: 1;
+  }
+}
+
+.hg_pt {
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+}
+
+.hd_appoint {
+  text-align: left;
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    color: #4a4a4a;
+  }
+}
+
+.bid {
+  background: #feb902;
+  border-radius: 3px;
+  width: 90px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 3px 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 10px;
+  /* identical to box height, or 83% */
+
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+}
