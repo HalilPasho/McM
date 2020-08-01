@@ -3,8 +3,7 @@ import useStyles from "./NavBarStyles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-// import Typography from "@material-ui/core/Typography";
-// import InputBase from "@material-ui/core/InputBase";
+
 import Badge from "@material-ui/core/Badge";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
@@ -71,8 +70,9 @@ export default function PrimarySearchAppBar() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
+      {/* <h4 className={classes.logo_title}>McMakler</h4> */}
       <MenuItem>
-        <IconButton aria-label="show 4 new mails" color="inherit">
+        <IconButton aria-label="show 4 new mails">
           <Badge badgeContent={4} color="secondary">
             <MailIcon />
           </Badge>
@@ -80,9 +80,14 @@ export default function PrimarySearchAppBar() {
         <p>Messages</p>
       </MenuItem>
       <MenuItem>
-        <IconButton aria-label="show 11 new notifications" color="inherit">
+        <IconButton aria-label="show 11 new notifications">
           <Badge badgeContent={11} color="secondary">
-            <img alt="ex" src={OnOff} />
+            <img
+              alt="ex"
+              style={{ marginLeft: "0px" }}
+              className={classes.icns_header}
+              src={OnOff}
+            />
           </Badge>
         </IconButton>
         <p>Notifications</p>
@@ -92,7 +97,6 @@ export default function PrimarySearchAppBar() {
           aria-label="account of current user"
           aria-controls="primary-search-account-menu"
           aria-haspopup="true"
-          color="inherit"
         >
           <AccountCircle />
         </IconButton>

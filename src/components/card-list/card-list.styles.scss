@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
   margin-bottom: 27px;
+  height: 297px;
+  &:nth-child(6) {
+    height: auto;
+  }
 }
 
 .card-list-hg {
@@ -46,6 +50,12 @@
   text-align: left;
   display: flex;
   align-items: baseline;
+}
+
+@media only screen and (max-width: 600px) {
+  .hg_pt {
+    display: block;
+  }
 }
 
 .hd_appoint {

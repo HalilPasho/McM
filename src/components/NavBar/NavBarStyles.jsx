@@ -23,6 +23,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("sm")]: {
       display: "block",
     },
+    [theme.breakpoints.down("xs")]: {
+      margin: "0 120px",
+      display: "flex",
+    },
   },
   contact_support: {
     fontFamily: "Roboto",
@@ -82,6 +86,7 @@ const useStyles = makeStyles((theme) => ({
   },
   sectionMobile: {
     display: "flex",
+    color: "black",
     [theme.breakpoints.up("md")]: {
       display: "none",
     },
