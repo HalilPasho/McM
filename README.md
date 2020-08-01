@@ -13,8 +13,8 @@ You will also see any lint errors in the console.
 Used in this project: react router, material ui, for the styles i used scss.
 For loader i used the react loaders, to try it better, just remove something from API and see it in action.
 About the icons i couldnt get them png from the design, it was coming always as jpeg even i chose the png option so i used the material ui icons and some i downloaded myself.
-in the search inpput, you can search by name, lastname, and email.
-
+In the search inpput, you can search by name, lastname, and email.
+In the sreen md and sm i used the burger menu from material ui but it can be changed if needed.
 The icons backgound color are random, also the text names in card.
 
 I did use some mocked data and API from https://jsonplaceholder.typicode.com/

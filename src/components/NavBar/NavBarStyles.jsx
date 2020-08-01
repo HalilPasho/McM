@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     [theme.breakpoints.down("md")]: {
       padding: "0",
+      width: "100%",
     },
   },
   logo_title: {

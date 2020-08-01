@@ -3,7 +3,7 @@ import useStyles from "./NavBarStyles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-
+import { makeStyles } from "@material-ui/core/styles";
 import Badge from "@material-ui/core/Badge";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
@@ -18,8 +18,22 @@ import Profile from "../../assets/images/user.png";
 import Mail from "../../assets/images/chat.png";
 import Support from "../../assets/images/support.png";
 
+const useStyless = makeStyles((theme) => ({
+  mg_top_header: {
+    backgroundColor: "#e5e5e5",
+    boxShadow: "unset",
+    width: "1270px",
+    margin: "auto",
+    [theme.breakpoints.down("xs")]: {
+      padding: "0",
+      width: "100%",
+    },
+  },
+}));
+
 export default function PrimarySearchAppBar() {
   const classes = useStyles();
+  const classess = useStyless();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
@@ -107,16 +121,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar
-        style={{
-          backgroundColor: "#e5e5e5",
-          boxShadow: "unset",
-          width: "1270px",
-          margin: "auto",
-        }}
-        className={classes.mg_top_header}
-        position="static"
-      >
+      <AppBar className={classess.mg_top_header} position="static">
         <Toolbar>
           <IconButton
             edge="start"
