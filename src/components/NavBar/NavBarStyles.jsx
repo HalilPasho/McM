@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     color: "#4A4A4A",
   },
   mg_top_header: {
-    padding: "0 200px",
+    width: "1270px",
+    margin: "auto",
     [theme.breakpoints.down("md")]: {
       padding: "0",
     },

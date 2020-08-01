@@ -108,7 +108,12 @@ export default function PrimarySearchAppBar() {
   return (
     <div className={classes.grow}>
       <AppBar
-        style={{ backgroundColor: "#e5e5e5", boxShadow: "unset" }}
+        style={{
+          backgroundColor: "#e5e5e5",
+          boxShadow: "unset",
+          width: "1270px",
+          margin: "auto",
+        }}
         className={classes.mg_top_header}
         position="static"
       >
