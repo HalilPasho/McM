@@ -7,7 +7,7 @@
   width: 110px;
   text-align: -webkit-center;
   border-right: 1px solid #e6e6e6;
-  padding-top: 10px;
+  // padding-top: 10px;
   &:last-child {
     border-right: none;
   }
@@ -20,6 +20,7 @@
     text-align: center;
     color: #4a4a4a;
     margin-top: 0px;
+    margin-bottom: 0;
   }
   .nr_ab {
     font-family: Roboto;
