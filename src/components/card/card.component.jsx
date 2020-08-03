@@ -15,7 +15,7 @@ export const Card = ({ cards, appointmentDate, bid }) => {
     <div className="card-container">
       <div
         style={{ backgroundColor: color, color: colorText }}
-        id="profileImage"
+        className="profileImage"
       >
         {firstname} {lastname}
       </div>
